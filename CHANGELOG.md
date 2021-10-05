@@ -1,3 +1,8 @@
+# v1.1.0
+
+- Add eslint-plugin-import for linting rules with autofix
+- Dependencies and peer dependencies upgrade
+
 # v1.0.2
 
 - Upgrade devDependencies and peerDependencies

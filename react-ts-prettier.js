@@ -9,6 +9,8 @@ module.exports = {
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:prettier/recommended',
+    'plugin:import/recommended',
+    'plugin:import/typescript',
   ],
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -18,7 +20,7 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  plugins: ['@typescript-eslint'],
+  plugins: ['@typescript-eslint', 'import'],
   settings: {
     react: {
       version: 'detect',
@@ -26,5 +28,27 @@ module.exports = {
   },
   rules: {
     'react/jsx-fragments': 'error',
+    'import/order': [
+      'error',
+      {
+        'newlines-between': 'always',
+        groups: [
+          'builtin',
+          'external',
+          [
+            'internal',
+            'unknown',
+            'parent',
+            'sibling',
+            'index',
+            'object',
+            'type',
+          ],
+        ],
+        alphabetize: {
+          order: 'asc',
+        },
+      },
+    ],
   },
 }

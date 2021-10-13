@@ -32,6 +32,7 @@ Extend `@repeale/eslint-config` in your `.eslintrc` file with one of the availab
 ## Configs
 
 - @repeale/eslint-config/react-ts-prettier
+- @repeale/eslint-config/ts-prettier
 
 ## License
 

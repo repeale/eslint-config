@@ -1,3 +1,7 @@
+# v1.2.0
+
+- added new ts-prettier config
+
 # v1.1.0
 
 - Add eslint-plugin-import for linting rules with autofix

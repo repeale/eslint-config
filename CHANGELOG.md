@@ -1,3 +1,7 @@
+# v1.3.0
+
+- Dependencies and peer dependencies upgrade
+
 # v1.2.0
 
 - added new ts-prettier config

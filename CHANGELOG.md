@@ -1,6 +1,7 @@
 # v1.4.0
 
 - Support for new jsx-runtime extending plugin:react/jsx-runtime
+- Dependencies and peer dependencies upgrade
 
 # v1.3.0
 

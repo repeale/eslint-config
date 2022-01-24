@@ -1,6 +1,6 @@
 {
   "name": "@repeale/eslint-config",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "@repeale eslint config",
   "files": [
     "react-ts-prettier.js",

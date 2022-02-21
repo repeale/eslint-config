@@ -1,6 +1,6 @@
 {
   "name": "@repeale/eslint-config",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "@repeale eslint config",
   "files": [
     "react-ts-prettier.js",
@@ -31,10 +31,10 @@
   "homepage": "https://github.com/repeale/eslint-config#readme",
   "prettier": "@repeale/prettier-config",
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": ">= 5.10.1",
-    "@typescript-eslint/parser": ">= 5.10.1",
-    "eslint": ">= 8.7.0",
-    "eslint-config-prettier": ">= 8.3.0",
+    "@typescript-eslint/eslint-plugin": ">= 5.12.1",
+    "@typescript-eslint/parser": ">= 5.12.1",
+    "eslint": ">= 8.9.0",
+    "eslint-config-prettier": ">= 8.4.0",
     "eslint-plugin-import": ">= 2.25.4",
     "eslint-plugin-prettier": ">= 4.0.0",
     "eslint-plugin-react": ">= 7.28.0",
@@ -43,10 +43,10 @@
   },
   "devDependencies": {
     "@repeale/prettier-config": "1.0.7",
-    "@typescript-eslint/eslint-plugin": "5.10.1",
-    "@typescript-eslint/parser": "5.10.1",
-    "eslint": "8.7.0",
-    "eslint-config-prettier": "8.3.0",
+    "@typescript-eslint/eslint-plugin": "5.12.1",
+    "@typescript-eslint/parser": "5.12.1",
+    "eslint": "8.9.0",
+    "eslint-config-prettier": "8.4.0",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-prettier": "4.0.0",
     "eslint-plugin-react": "7.28.0",

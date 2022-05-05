@@ -1,3 +1,7 @@
+# v1.6.0
+
+- Dependencies and peer dependencies upgrade
+
 # v1.5.0
 
 - Dependencies and peer dependencies upgrade
